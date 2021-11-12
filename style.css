@@ -13,7 +13,7 @@
 }
 
 body{
-    background: url('wallpaper\ 3.png') no-repeat;
+    background: black
 }
 
 header ul a img{
@@ -57,4 +57,42 @@ header ul li a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#equipe{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#equipe img {
+    width: 250px;   
+   margin-top: 50px;
+}
+
+#equipe h1{
+    color: #fff;
+}
+
+#equipe2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: cornsilk;
+    
+}
+#equipe2 img {
+    width: 250px;
+    margin-top: 100px;   
+}
+
+
+#equipe2 p{
+    width: 500px;
+    margin-top: 20px;
+    
+}
+#equipe2 p{
+    text-decoration: slategrey;
 }
