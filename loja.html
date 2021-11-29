@@ -1,29 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>StarWolf</title>
-  
+    <link rel="stylesheet" href="loja.css">
+   
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>StarWolf | Loja</title>
 </head>
-<body>
-    <header class="wrapper">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="equipe.html">Nossa Equipe</a></li>
-            <a href="index.html">
-                <img src="logoroxa.png" alt="minha logo" />
-            </a>
-            <li><a href="contatos.html">Contatos</a></li>
-            <li><a href="loja.html">Loja</a></li>
-        </ul>
-    </header>    
- <!-- Começar aqui -->
 
- 
-<!-- Terminar aqui  -->
-    
+<body>
+        
+    <!-- Começar aqui -->
+    <header>
+        <div id="conteudoHeader" class="wrapper">
+            <img src="./logoroxa.png" alt="">
+            <form>
+                <i data-feather="search"></i><input type="text" placeholder="Pesquisar">
+            </form>
+        </div>
+    </header>
+
+    <div id="banner" class="wrapper">
+        <img id="bl" src="Bannerloja.png" alt="">
+    </div>
+
+    <div id="produtos" class="wrapper">
+        <div class="grupo">
+            <div class="produto">
+                <img src="./imagens/Produtos/Air-Jordan-1-University-Blue.jpg" alt="">
+                <h3>Air Jordan </h3>
+                <span><s>R$ 290,00</s></span>
+                <span>R$ 200,00</span>
+                <button>Comprar</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/Produtos/Bermuda.jpg" alt="">
+                <h3>Bermuda Masc. </h3>
+                <span><s>R$ 280,00</s></span>
+                <span>R$ 200,00</span>
+                <button>Comprar</button>
+            </div>
+            <div class="produto"></div>
+            <div class="produto"></div>
+        </div>
+        <div class="grupo">
+            <div class="produto"></div>
+            <div class="produto"></div>
+            <div class="produto"></div>
+            <div class="produto"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            Rodapé
+        </div>
+    </footer>
+
+
+    <!-- -->
+    <!-- Terminar aqui  -->
+
+    <script>
+        feather.replace()
+      </script>
+       <script src="botao.js"></script>
 </body>
+
 </html>

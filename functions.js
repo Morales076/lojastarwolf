@@ -12,3 +12,4 @@ contato.addEventListener("submit", event => {
     contato.request();
     alert("Mensagem Enviada com sucesso");
 });
+
